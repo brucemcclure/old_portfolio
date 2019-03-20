@@ -97,8 +97,9 @@ a:link {
 }
 
 .logo {
+    padding-top: 1vh;
     width: 20vw;
-    height: 14vh; 
+    height: 12vh; 
 }
 
 
