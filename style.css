@@ -43,7 +43,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-size: cover;
+    /* background-size: cover; */
     width: 100%;
     height: 100vh;
     }
@@ -347,7 +347,7 @@ a:link {
 /*******************************************************************************************************/
 
 #fixed_background {
-    background: url("background/leather.jpg");
+    background: url("background/drops.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -363,6 +363,13 @@ a:link {
         text-align: center;
         font-size: 5vh;
         }
+
+    #fixed_background {
+        background: url("background/leather.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        }
+    
     
    #landing_page p {
         font-family: "Cinzel";
