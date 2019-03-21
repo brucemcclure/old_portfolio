@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 
 #landing_page {
-    background: url("landing_image/ct.jpg");
-    background-attachment: fixed;
+    /* background: url("landing_image/ct.jpg");
+    background-attachment: fixed; */
     /* background-repeat: no-repeat; */
     background-size: cover;
     width: 100%;
@@ -90,7 +90,9 @@ a:link {
     height: 100vh;
     }
 
-
+#profile {
+    border-radius: 50%;
+}
     
     
 #about_blurb {
@@ -347,7 +349,7 @@ a:link {
 /*******************************************************************************************************/
 
 #fixed_background {
-    background: url("background/drops.jpg");
+    background: url("landing_image/ct.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
