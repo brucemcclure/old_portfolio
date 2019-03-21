@@ -12,7 +12,7 @@
 <body>
 <!------------------------------------------- Start Landing page --------------------------------------->
     <div id= "landing_page"> 
-        <div id = "hover_tile">
+        <div class = "hover_tile">
             <h1>Bruce McClure</h1>
             <p>"Every great developer you know got there by solving problems they were unqualified to solve 
                 until they actually did it." - <span>Patrick McKenzie</span></p>
@@ -20,7 +20,7 @@
     </div>
 <!------------------------------------------- End Landing page ----------------------------------------->
 
-
+<div id ="fixed_background">
 <!-------------------------------------------Start Navigation Page ------------------------------------->
 <div id= "navigation_page">
         <a href="#about_page"><div class="nav_tiles" id="about">About</div></a>
@@ -29,171 +29,282 @@
         <a href="#contact_page"><div class="nav_tiles" id="contact">Contact</div></a>
         <a href="#work_page"><div class="nav_tiles" id="work">Work</div></a>
         <a href="#education_page"><div class="nav_tiles" id="education">Education</div></a>
-    </div>
+</div>
 
 
 <!------------------------------------------- End Navigation Page -------------------------------------->
 
 
+<!------------------------------------------- Start About Page ----------------------------------------->
 
-
-
-<!----------------------------------------------Start Skills Page -------------------------------------->
-
-<div id= "skills_page">
+<div id= "about_page">
         
-    <div id= "ruby" class="nav_tiles" class="card">  
         <div>
-             <img src="skills_page/ruby.png" class="logo">
+            <img src="about_page/corgi.jpeg">
         </div>
-        <div id = "text">
-            <p>Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Rem dolorum velit labore, 
-            architecto maxime dicta sit amet consectetur</p>
-        </div>
-    </div>    
-    
-    
-    <div id= "python" class="nav_tiles" class="card">  
-            <div>
-                <img src="skills_page/python.png" class="logo">
-            </div>
-            <div id = "text">
-            <p>Lorem ipsum dolor sit, amet consectetur 
-                adipisicing elit. Rem dolorum velit labore, 
-                architecto maxime dicta sit amet consectetur</p>
-            </div>
+        
+        <div id="about_tile">
+        <p id= "about_blurb">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia cupiditate iste 
+                suscipit. Laborum porro ut culpa molestiae ullam corporis a iusto eius maxime dolorem 
+                in possimus rem, quaerat voluptatibus sint. </p>
         </div>
 
-
-        <div id= "ruby_on" class="nav_tiles" class="card"> 
-            <div>
-                <img src="skills_page/rails.png" class="logo">
-            </div>
-            <p>Lorem ipsum dolor sit, amet consectetur 
-                adipisicing elit. Rem dolorum velit labore, 
-                architecto maxime dicta sit amet consectetur</p>
-        </div>
-
-
-
-        <div id= "js" class="nav_tiles" class="card"> 
-            <div>
-                <img src="skills_page/js2.png" class="logo">
-            </div>
-            <p>Lorem ipsum dolor sit, amet consectetur 
-                    adipisicing elit. Rem dolorum velit labore, 
-                    architecto maxime dicta sit amet consectetur</p>
-        </div>
-
-        <div class="blurb_tiles">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia cupiditate iste 
-            suscipit. Laborum porro ut culpa molestiae ullam corporis a iusto eius maxime dolorem 
-            in possimus rem, quaerat voluptatibus sint. Lorem ipsum dolor sit amet consectetur, 
-            adipisicing elit. Tenetu</p>   
-        </div>
 
 </div>
 
 
+<!-------------------------------------------- End About Page ------------------------------------------>
 
-<!--------------------------------------------- End Skills Page ---------------------------------------->
+<!----------------------------------------------Start Skills Page -------------------------------------->
 
-<!-------------------------------------------- Start Projects Page --------------------------------------->
+    <div id= "skills_page">
 
-<div id= "projects_page">
-        
-        <div id= "roulette" class="nav_tiles">  
-            
+        <div id= "ruby" class="nav_tiles" class="card">  
             <div>
-                <img src="projects_page/roulette.png" class="logo">
+                 <img src="skills_page/ruby.png" class="logo">
             </div>
-            
-            <p>Lorem ipsum dolor sit, amet consectetur 
+            <div id = "text">
+                <p>Lorem ipsum dolor sit, amet consectetur 
                 adipisicing elit. Rem dolorum velit labore, 
                 architecto maxime dicta sit amet consectetur</p>
-        </div>
-        
-        <div id= "ubuntu" class="nav_tiles"> 
-            <div>
-                <img src="projects_page/africa.png" class="logo">
             </div>
+        </div>    
 
-            <p>Lorem ipsum dolor sit, amet consectetur 
-                adipisicing elit. Rem dolorum velit labore, 
-                architecto maxime dicta sit amet consectetur</p>
-        </div>
-        <div id= "under_construction1" class="nav_tiles"> 
+
+        <div id= "python" class="nav_tiles" class="card">  
                 <div>
-                    <img src="projects_page/under_construction.png" class="logo">
+                    <img src="skills_page/python.png" class="logo">
                 </div>
-
-            <p>Lorem ipsum dolor sit, amet consectetur 
+                <div id = "text">
+                <p>Lorem ipsum dolor sit, amet consectetur 
                     adipisicing elit. Rem dolorum velit labore, 
                     architecto maxime dicta sit amet consectetur</p>
                 </div>
-        <div id= "under_construction2" class="nav_tiles"> 
-            <div>
-                <img src="projects_page/under_construction.png" class="logo">
             </div>
-        
-            <p>Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Rem dolorum velit labore, 
-            architecto maxime dicta sit amet consectetur</p>
+
+
+            <div id= "ruby_on" class="nav_tiles" class="card"> 
+                <div>
+                    <img src="skills_page/rails.png" class="logo">
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Rem dolorum velit labore, 
+                    architecto maxime dicta sit amet consectetur</p>
             </div>
+
+
+
+            <div id= "js" class="nav_tiles" class="card"> 
+                <div>
+                    <img src="skills_page/js2.png" class="logo">
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. Rem dolorum velit labore, 
+                        architecto maxime dicta sit amet consectetur</p>
+            </div>
+
             <div class="blurb_tiles">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia cupiditate iste 
                 suscipit. Laborum porro ut culpa molestiae ullam corporis a iusto eius maxime dolorem 
                 in possimus rem, quaerat voluptatibus sint. Lorem ipsum dolor sit amet consectetur, 
                 adipisicing elit. Tenetu</p>   
             </div>
-</div>
 
-<!---------------------------------------------- End Projects Page ------------------------------------->
+    </div>
 
-<!---------------------------------------------- Start Contact Page ------------------------------------->
 
-<div id= "contact_page">
-        
-        <a href="https://github.com/brucemcclure">
-        <div id= "github" class="nav_tiles">  
-            <div>
-                <img src="contact_page/github.png" class="logo">
+
+    <!--------------------------------------------- End Skills Page ---------------------------------------->
+
+    <!-------------------------------------------- Start Projects Page --------------------------------------->
+
+<div id= "projects_page">
+
+            <div id= "roulette" class="nav_tiles">  
+
+                <div>
+                    <img src="projects_page/roulette.png" class="logo">
+                </div>
+
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Rem dolorum velit labore, 
+                    architecto maxime dicta sit amet consectetur</p>
             </div>
 
-            <p>Lorem ipsum dolor sit, amet consectetur 
+            <div id= "ubuntu" class="nav_tiles"> 
+                <div>
+                    <img src="projects_page/africa.png" class="logo">
+                </div>
+
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Rem dolorum velit labore, 
+                    architecto maxime dicta sit amet consectetur</p>
+            </div>
+            <div id= "under_construction1" class="nav_tiles"> 
+                    <div>
+                        <img src="projects_page/under_construction.png" class="logo">
+                    </div>
+
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. Rem dolorum velit labore, 
+                        architecto maxime dicta sit amet consectetur</p>
+                    </div>
+            <div id= "under_construction2" class="nav_tiles"> 
+                <div>
+                    <img src="projects_page/under_construction.png" class="logo">
+                </div>
+            
+                <p>Lorem ipsum dolor sit, amet consectetur 
                 adipisicing elit. Rem dolorum velit labore, 
                 architecto maxime dicta sit amet consectetur</p>
-        </div>
-        </a>
+                </div>
+                <div class="blurb_tiles">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia cupiditate iste 
+                    suscipit. Laborum porro ut culpa molestiae ullam corporis a iusto eius maxime dolorem 
+                    in possimus rem, quaerat voluptatibus sint. Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Tenetu</p>   
+                </div>
+    </div>
 
-        <a href="https://www.linkedin.com/in/bruce-mcclure-923513158">
-        <div id= "linked" class="nav_tiles"> 
-            <div>
-                <img src="contact_page/linked.png" class="logo">
+    <!---------------------------------------------- End Projects Page ------------------------------------->
+
+    <!---------------------------------------------- Start Contact Page ------------------------------------->
+
+    <div id= "contact_page">
+
+            <a href="https://github.com/brucemcclure">
+            <div id= "github" class="nav_tiles">  
+                <div>
+                    <img src="contact_page/github.png" class="logo">
+                </div>
+
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Rem dolorum velit labore, 
+                    architecto maxime dicta sit amet consectetur</p>
+            </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/bruce-mcclure-923513158">
+            <div id= "linked" class="nav_tiles"> 
+                <div>
+                    <img src="contact_page/linked.png" class="logo">
+                </div>
+
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Rem dolorum velit labore, 
+                    architecto maxime dicta sit amet consectetur</p>
+            </div>
+            </a>
+
+            <a href="mailto:brucemcc90@gmail.com?subject=Concerning your portfolio on GitHub">
+            <div id= "email" class="nav_tiles">
+                <div>
+                    <img src="contact_page/gmail.png" class="logo">
+                </div> 
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. Rem dolorum velit labore, 
+                        architecto maxime dicta sit amet consectetur</p>
+                </div></a>
+
+                <a href="tel:+61433813195"><div id= "phone" class="nav_tiles">
+                <div>
+                    <img src="contact_page/phone.png" class="logo">
+                </div> 
+                    <p>Lorem ipsum dolor sit, amet consectetur 
+                            adipisicing elit. Rem dolorum velit labore, 
+                            architecto maxime dicta sit amet consectetur</p>
+                </div></a>
+
+                <div class="blurb_tiles">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia cupiditate iste 
+                    suscipit. Laborum porro ut culpa molestiae ullam corporis a iusto eius maxime dolorem 
+                    in possimus rem, quaerat voluptatibus sint. Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Tenetu</p>   
+                </div>
+    </div>
+
+
+
+    <!---------------------------------------------- End Contact Page --------------------------------------->
+
+    <!---------------------------------------------- Start Work Page --------------------------------------->
+    <div id= "work_page">
+            <div id= "standrews" class="nav_tiles">  
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Rem dolorum velit labore, 
+                architecto maxime dicta sit amet consectetur</p>
+            </div>        
+
+            <div id= "standrews" class="nav_tiles">  
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Rem dolorum velit labore, 
+                architecto maxime dicta sit amet consectetur</p>
             </div>
 
-            <p>Lorem ipsum dolor sit, amet consectetur 
+            <div id= "saiab" class="nav_tiles"> 
+                <p>Lorem ipsum dolor sit, amet consectetur 
                 adipisicing elit. Rem dolorum velit labore, 
                 architecto maxime dicta sit amet consectetur</p>
-        </div>
-        </a>
+            </div>
 
-        <a href="mailto:brucemcc90@gmail.com?subject=Concerning your portfolio on GitHub">
-        <div id= "email" class="nav_tiles">
+            <div id= "kearsney" class="nav_tiles"> 
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Rem dolorum velit labore, 
+                architecto maxime dicta sit amet consectetur</p>
+            </div>
+
+            <div class="blurb_tiles">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia cupiditate iste 
+                suscipit. Laborum porro ut culpa molestiae ullam corporis a iusto eius maxime dolorem 
+                in possimus rem, quaerat voluptatibus sint. Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Tenetu</p>   
+            </div>
+
+    </div>
+    <!--------------------------------------------- End Work Page ------------------------------------------>
+
+
+
+    <!------------------------------------------- Start Education Page ------------------------------------->
+        <div id= "education_page">
+
+            <a href="https://www.ru.ac.za/facultyofscience/">
+            <div id="undergrad" class="nav_tiles">  
             <div>
-                <img src="contact_page/gmail.png" class="logo">
+                <img src="education/undergrad.png" class="logo">
             </div> 
-            <p>Lorem ipsum dolor sit, amet consectetur 
+
+                <p>Lorem ipsum dolor sit, amet consectetur 
                     adipisicing elit. Rem dolorum velit labore, 
                     architecto maxime dicta sit amet consectetur</p>
             </div></a>
 
-            <a href="tel:+61433813195"><div id= "phone" class="nav_tiles">
+            <a href ="https://www.ru.ac.za/ichthyology/">
+            <div id="hons" class="nav_tiles">
             <div>
-                <img src="contact_page/phone.png" class="logo">
-            </div> 
+                <img src="education/hons.png" class="logo">
+            </div>  
                 <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Rem dolorum velit labore, 
+                    architecto maxime dicta sit amet consectetur</p>
+            </div></a>
+
+            <a href ="https://www.unisa.ac.za/sites/corporate/default/Colleges/Education">
+            <div id="pgce" class="nav_tiles">
+            <div>
+                <img src="education/pgce.png" class="logo">
+            </div>  
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Rem dolorum velit labore, 
+                    architecto maxime dicta sit amet consectetur</p>
+            </div></a>
+
+            <a href="https://coderacademy.edu.au/coding-courses/coding-bootcamps/fast-track">
+            <div id="dip" class="nav_tiles">
+            <div>
+                <img src="education/ca.png" class="logo">
+            </div>  
+                    <p>Lorem ipsum dolor sit, amet consectetur 
                         adipisicing elit. Rem dolorum velit labore, 
                         architecto maxime dicta sit amet consectetur</p>
             </div></a>
@@ -204,110 +315,16 @@
                 in possimus rem, quaerat voluptatibus sint. Lorem ipsum dolor sit amet consectetur, 
                 adipisicing elit. Tenetu</p>   
             </div>
+
+
+        </div>
 </div>
+    <!------------------------------------------- End Education Page---------------------------------------->
 
 
 
-<!---------------------------------------------- End Contact Page --------------------------------------->
 
-<!---------------------------------------------- Start Work Page --------------------------------------->
-<div id= "work_page">
-        <div id= "standrews" class="nav_tiles">  
-            <p>Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Rem dolorum velit labore, 
-            architecto maxime dicta sit amet consectetur</p>
-        </div>        
-
-        <div id= "standrews" class="nav_tiles">  
-            <p>Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Rem dolorum velit labore, 
-            architecto maxime dicta sit amet consectetur</p>
-        </div>
-
-        <div id= "saiab" class="nav_tiles"> 
-            <p>Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Rem dolorum velit labore, 
-            architecto maxime dicta sit amet consectetur</p>
-        </div>
-
-        <div id= "kearsney" class="nav_tiles"> 
-            <p>Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Rem dolorum velit labore, 
-            architecto maxime dicta sit amet consectetur</p>
-        </div>
-
-        <div class="blurb_tiles">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia cupiditate iste 
-            suscipit. Laborum porro ut culpa molestiae ullam corporis a iusto eius maxime dolorem 
-            in possimus rem, quaerat voluptatibus sint. Lorem ipsum dolor sit amet consectetur, 
-            adipisicing elit. Tenetu</p>   
-        </div>
-
-</div>
-<!--------------------------------------------- End Work Page ------------------------------------------>
-
-
-
-<!------------------------------------------- Start Education Page ------------------------------------->
-    <div id= "education_page">
-
-        <a href="https://www.ru.ac.za/facultyofscience/">
-        <div id="undergrad" class="nav_tiles">  
-        <div>
-            <img src="education/undergrad.png" class="logo">
-        </div> 
-        
-            <p>Lorem ipsum dolor sit, amet consectetur 
-                adipisicing elit. Rem dolorum velit labore, 
-                architecto maxime dicta sit amet consectetur</p>
-        </div></a>
-        
-        <a href ="https://www.ru.ac.za/ichthyology/">
-        <div id="hons" class="nav_tiles">
-        <div>
-            <img src="education/hons.png" class="logo">
-        </div>  
-            <p>Lorem ipsum dolor sit, amet consectetur 
-                adipisicing elit. Rem dolorum velit labore, 
-                architecto maxime dicta sit amet consectetur</p>
-        </div></a>
-
-        <a href ="https://www.unisa.ac.za/sites/corporate/default/Colleges/Education">
-        <div id="pgce" class="nav_tiles">
-        <div>
-            <img src="education/pgce.png" class="logo">
-        </div>  
-            <p>Lorem ipsum dolor sit, amet consectetur 
-                adipisicing elit. Rem dolorum velit labore, 
-                architecto maxime dicta sit amet consectetur</p>
-        </div></a>
-
-        <a href="https://coderacademy.edu.au/coding-courses/coding-bootcamps/fast-track">
-        <div id="dip" class="nav_tiles">
-        <div>
-            <img src="education/ca.png" class="logo">
-        </div>  
-                <p>Lorem ipsum dolor sit, amet consectetur 
-                    adipisicing elit. Rem dolorum velit labore, 
-                    architecto maxime dicta sit amet consectetur</p>
-        </div></a>
-
-        <div class="blurb_tiles">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia cupiditate iste 
-            suscipit. Laborum porro ut culpa molestiae ullam corporis a iusto eius maxime dolorem 
-            in possimus rem, quaerat voluptatibus sint. Lorem ipsum dolor sit amet consectetur, 
-            adipisicing elit. Tenetu</p>   
-        </div>
-
-
-    </div>
-
-<!------------------------------------------- End Education Page---------------------------------------->
-
-    
-
-
-<!---  Page -->
-</body>
-</html>
+    <!---  Page -->
+    </body>
+    </html>
 
