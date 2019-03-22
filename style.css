@@ -191,6 +191,7 @@ a:link {
 
 #dog {
     padding-top: 1v;
+    width: 20vw;
 }
 
 .badge {
@@ -403,7 +404,16 @@ a:link {
     background: url("landing_image/ct.jpg");
     background-size: cover;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 }
+
+/* background: url(image.format) no-repeat center center fixed; 
+
+background-size: cover;
+background-size:100%;
+width:100%; */
 
 
 
@@ -498,9 +508,15 @@ a:link {
     }
 
     #dog {
-        padding-top: 1v;
+        padding-top: 1vw;
+        width: 7vw;
     }
     
+    #dragon {
+        width: 4vw;
+    }
+
+
     .badge {
         width: 9vw;
     }
