@@ -13,16 +13,25 @@ html {
     /* background: url("landing_image/ct.jpg");
     background-attachment: fixed; */
     /* background-repeat: no-repeat; */
+    
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;  
+    align-items: center;
     background-size: cover;
     width: 100%;
     height: 100vh;
     }
 
+#landing_page .arrow_tile {
+    justify-self: flex-end;
+}    
+
 .hover_tile {
-    position: absolute;
+    /* position: absolute;
     top: 30%;
     left: 30%;
-    display: inline-block;
+    display: inline-block; */
     background-color: rgba(255, 255, 255, 0.712);
     width: 40vw;
     height: 40vh;
@@ -80,27 +89,22 @@ a:active{
 
 a:visited{
     font-family: "Cinzel";
-    rgb(0, 225, 255);
+    /* rgb(0, 225, 255); */
     text-align: center;
     font-size: 4vh;
 }
 
 .arrow  {
-
-    display: inline-block;
-    align-self: flex-end;
+    /* display: inline-block; */
+    /* align-self: flex-end; */
 }
 
 .arrow_tile {
+    display: inline-block;
     border-color: #4A7C94;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.712);
 }
-
-
-
-
-
 
    
 .nav_tiles {
@@ -530,12 +534,12 @@ width:100%; */
     .logo {
         /* padding-top: 2.5vh; */
         width: 6vw;
-        height: 11vh; 
+        height: auto; 
     }
 
 
     .nav_tiles {
-        width: 35vw;
+        width: 33vw;
         height: 16vh;
     }
 
@@ -543,14 +547,14 @@ width:100%; */
     #dog {
         width: 4vw;
     }
-    
+
     #dragon {
         width: 4vw;
     }
 
 
     .badge {
-        width: 5vw;
+        width: 4vw;
     }
 
 }
