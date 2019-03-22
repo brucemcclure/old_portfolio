@@ -43,6 +43,12 @@ html {
         font-size: 2.2vh;
         }
 
+.nav_tiles p {
+    font-family: "Cinzel";
+    color: #0D1C1E;
+    text-align: center;
+    font-size: 2.2vh;
+    }
 
 
 #navigation_page {
@@ -101,7 +107,7 @@ html {
 a:link {
     text-decoration: none;
     font-family: "Cinzel";
-    color #0D1C1E;
+    color: #333329;
     }  
 /*******************************************************************************************************/
 
@@ -180,10 +186,17 @@ a:link {
 }
 
 .logo {
-    
-    /* padding-top: 2vh; */
     width: 15vw;
 }
+
+#dog {
+    padding-top: 1v;
+}
+
+.badge {
+    width: 25vw;
+}
+
 
 
 
@@ -340,24 +353,34 @@ a:link {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* background: url("work_page/desk.jpeg"); */
-    /* background-repeat: no-repeat; */
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
 
-/* #work_page p {
-    width: 50%
-    
-} */
+
+
+#kingswood {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 #standrews {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
 }
 
+
+#kearsney {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 /********************************************************************************************************/
 
@@ -428,7 +451,7 @@ a:link {
     }
 
     .blurb_tiles span {
-        color: aqua;
+        font-size: 3.5vw;
     }
 
     #skills_page{
@@ -467,9 +490,19 @@ a:link {
         height: 11vh; 
     }
 
+
+
     .nav_tiles {
         width: 35vw;
         height: 16vh;
+    }
+
+    #dog {
+        padding-top: 1v;
+    }
+    
+    .badge {
+        width: 9vw;
     }
 
 }
