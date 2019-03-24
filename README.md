@@ -1,3 +1,5 @@
+
+
 # Bruce McClure Portfolio Website
 
 ## Goal
@@ -8,7 +10,8 @@ The goal of the site is to communicate all relevant information to prospective e
 ### How to use the site:
 This site is simple and intuitive. There is a landing page with the heading and a navigation arrow which brings the user to the navigation page. Thereafter there are links to different pages with information the user may find useful. The user may with scroll in each direction or use the navigation arrows to move through the site. 
 
-// picture from draw.io
+![](docs/images/readme_evidence/how_to.jpg)
+
 ### Supported devices
 All devices capable of using web browsers will be able to access this site. 
 
@@ -27,14 +30,15 @@ tiles were moving over the screen downwards instead of the user scrolling down t
 A clean and simple site which displays all information a prospective employer may wish to know 
 
 ### Inspiration
-The general trend of minimalist design resonates with me as a person. I would like to reflect that in my work.  
+The general trend of minimalist design resonates with me as a person. I would like to reflect that in my work. 
+
 https://www.canva.com/learn/minimalist-design-beautiful-examples-and-practical-tips/
 
 ### Mood board
 The mood board includes all images used and considered. 
 
 
-// screenshot from all images used and
+![](docs/images/readme_evidence/mood.png)
 
 ### Colors
 Canva was used to generate the color scheme.
@@ -47,48 +51,50 @@ One font was used for the site and styled in different manners. It was accessed 
 
 https://fonts.google.com/specimen/Cinzel?category=Serif
 
+![](docs/images/readme_evidence/color_and_font.png)
+
 ### Wire-frame
 Wire frames were created using balsamiq.
 
-// images from 
+![](docs/images/readme_evidence/wire_frame.pdf)
 
 ### Imagery
 
 
-
 ## Sections
-### Home
+### Landing
 
-// screenshot
+![](docs/images/readme_evidence/landing.png)
 
 ### About me
 
-// screenshot
+![](docs/images/readme_evidence/about.png)
 
 ### Work Experience 
 
-// screenshot
+![](docs/images/readme_evidence/work.png)
 
 
 ### Skills
 
-// Screenshot
+![](docs/images/readme_evidence/skill.png)
 
 ### Education
 
-// screenshot
+![](docs/images/readme_evidence/education.png)
 
 ### Contact me
 
-// screenshot
+![](docs/images/readme_evidence/contact.png)
 
 ### Projects
 
-// screenshot
+![](docs/images/readme_evidence/project.png)
 
 ## Development
 ### tools
 
+Chrome dev tools
 The text editor used was VS Code with the live server extension. 
 CSS tricks and w3 Schools were accessed throughout. 
 
@@ -98,14 +104,17 @@ CSS tricks and w3 Schools were accessed throughout.
 
 #### Git
 
-// Screenshot
+![](docs/images/readme_evidence/git_ev.png)
 
 #### Balsamiq
 
-// Balsamiq
+As seen in readme_evidence images file
+
+![](docs/images/readme_evidence/balsamiq.png)
 
 ### Directories
 
+![](docs/images/readme_evidence/git_ev.png)
 https://github.com/brucemcclure/brucemcclure.github.io.git
 
 
@@ -121,7 +130,8 @@ https://icons8.com/
 
 ### Challenges
 
-
+Becomming familiar with flexbox has been a challenge but it has been a good excercise.
+Overcoming feature creep was also difficult.
 
 ### Key features
 Minimal design and responsive layout. 
