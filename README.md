@@ -1,6 +1,8 @@
 
 
 # Bruce McClure Portfolio Website
+https://brucemcclure.github.io/
+https://github.com/brucemcclure/brucemcclure.github.io.git
 
 ## Goal
 The goal of the site is to communicate all relevant information to prospective employers in a professional manner.  The site is not meant to be feature filled or distract the user from its actual content. The content is the main feature of the site. 
