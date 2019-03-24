@@ -164,7 +164,7 @@ a:link {
     font-family: "Cinzel";
     color: #0D1C1E;
     text-align: center;
-    font-size: 2.2vh;
+    font-size: 3vw;
     width: 85vw;
     height: 15vh;
 }
@@ -481,7 +481,7 @@ width:100%; */
     }
 
     #about_blurb {
-        font-size: 1.25vw;
+        font-size: 2vw;
     }
 
     .blurb_tiles {
