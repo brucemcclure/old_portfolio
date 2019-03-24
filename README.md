@@ -43,7 +43,7 @@ The mood board includes all images used and considered.
 ### Colors
 Canva was used to generate the color scheme.
 
-// canva screenshot
+![](docs/images/readme_evidence/color_and_font.png)
 
 ### fonts
 
@@ -56,9 +56,14 @@ https://fonts.google.com/specimen/Cinzel?category=Serif
 ### Wire-frame
 Wire frames were created using balsamiq.
 
-![](docs/images/readme_evidence/wire_frame.pdf)
+![](docs/images/readme_evidence/land_wire.png)
 
-### Imagery
+![](docs/images/readme_evidence/navigation_wire.png)
+
+![](docs/images/readme_evidence/about_wire.png)
+
+![](docs/images/readme_evidence/work_wire.png)
+
 
 
 ## Sections
@@ -100,7 +105,22 @@ CSS tricks and w3 Schools were accessed throughout.
 
 #### Trello
 
-// Screenshot
+![](docs/images/readme_evidence/T1.jpg)
+![](docs/images/readme_evidence/T2.jpg)
+![](docs/images/readme_evidence/T3.jpg)
+![](docs/images/readme_evidence/T4.jpg)
+![](docs/images/readme_evidence/T5.jpg)
+![](docs/images/readme_evidence/T6.jpg)
+![](docs/images/readme_evidence/T7.jpg)
+![](docs/images/readme_evidence/T8.jpg)
+![](docs/images/readme_evidence/T9.jpg)
+![](docs/images/readme_evidence/T10.jpg)
+
+
+![](docs/images/readme_evidence/Tstart.png)
+![](docs/images/readme_evidence/Tmid.png)
+![](docs/images/readme_evidence/Tfinal.png)
+
 
 #### Git
 
