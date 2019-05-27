@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
+    <script> 
+        // Create new link Element in the HTML 
+        var link = document.createElement('link');  
+        // set the attributes for link element, rel, type and hred 
+        link.rel = 'stylesheet';  
+        link.type = 'text/css'; 
+        link.href = `style${Math.floor(Math.random() * 3) + 1}.css`;  
+        // Get HTML head element to append link element to it  
+        document.getElementsByTagName('HEAD')[0].appendChild(link);  
+    </script>  
+    <script src="script.js"></script>
+    <title>Bruce James Mc Clure</title>
+</head>
+<body>
+    <div id ="fixed_background">
+    <!------------------------------------------- Start Landing page --------------------------------------->
+    <div id= "landing_page"> 
+            <div class = "hover_tile">
+                <h1>Bruce McClure</h1>
+                <p>"You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity." - 
+                    <span>John Romero</span></p>
+            </div>
+    
+            <div class="arrow_tile">
+            <a href="#navigation_page"><img src="nav_page/arrow.png" alt="Image showing downward arrow" class="arrow" ></a>
+            </div>
+    </div> 
+    <!------------------------------------------- End Landing page ----------------------------------------->
+    
+    
+    <!-------------------------------------------Start Navigation Page ------------------------------------->
+    <div id= "navigation_page">
+            <a href="#about_page"><div class="nav_tiles" id="about">About me</div></a>
+            <a href="#skills_page"><div class="nav_tiles" id="skills">Skills</div></a>
+            <a href="#projects_page"><div class="nav_tiles" id="projects">Projects</div></a>
+            <a href="#contact_page"><div class="nav_tiles" id="contact">Contact</div></a>
+            <a href="#work_page"><div class="nav_tiles" id="work">Work experience</div></a>
+            <a href="#education_page"><div class="nav_tiles" id="education">Education</div></a>
+    
+    
+    </div>
+    
+    
+    <!------------------------------------------- End Navigation Page -------------------------------------->
+    
+    
+    <!------------------------------------------- Start About Page ----------------------------------------->
+    
+    <div id= "about_page">
+            
+            <div id = "test">
+                <!-- <img src="about_page/profile2.jpeg" alt="Profile picture of the web developer. Bruce McClure." id = "profile"> -->
+            </div>
+            
+            <div id="about_tile">
+            <p id= "about_blurb">
+            <span>About me </span>- I am a web developer with a broard background in science and passion for all things tech.
+            I love learning new skills and technology to make more projects or make exisiting projects more efficient. 
+            </p>
+            </div>
+       
+        <div class="arrowholder">
+        
+            <div class="arrow_tile">   
+                <a href="#skills_page"><img src="nav_page/arrow.png" alt="Image showing downward arrow" class="arrow" class="heartbeat"></a>
+            </div>
+
+            <div class="arrow_tile">   
+                <a href="#navigation_page"><img src="nav_page/arrow_bottom.png" alt="Image showing downward arrow" class="arrow" class="heartbeat"></a>
+            </div>
+        </div>
+    
+    </div>
+    
+    
+    <!-------------------------------------------- End About Page ------------------------------------------>
+    
+    <!----------------------------------------------Start Skills Page -------------------------------------->
+    
+        <div id= "skills_page">
+    
+            <div id= "ruby" class="nav_tiles" class="card">  
+                <div class = "all_icons" id = "rubyimg">
+                     <!-- <img src="skills_page/ruby.png" alt="Image of Ruby logo" class="logo"> -->
+                </div>
+                <div class = "text">
+                    <p>The foundation of my programming knowledge. I have used ruby for everything from 
+                        basic terminal apps to scraping sites for data analysis.
+                    </p>
+                </div>
+            </div>    
+    
+    
+            <div id= "python" class="card">  
+                    <div class = "all_icons" id = "pythonimg">
+                        <!-- <img src="skills_page/python.png" alt="Image of Python logo" class="logo"> -->
+                    </div>
+                    <div class = "text">
+                    <p>I have used python for a variety of projects. From data science, rasberry pi, to rudimentary machine learning</p>
+                    </div>
+            </div>
+    
+    
+                <div id= "ruby_on" alt="Image of Ruby-on-rails logo" class="card"> 
+                    <div class = "all_icons" id = "rubyonrailsimg">
+                        <!-- <img src="skills_page/rails.png" class="logo"> -->
+                    </div>
+
+                    <div class = "text">
+                    <p>Ruby on Rails is one of the most popular technology stacks in the startup world. This is currently my preferred framework for web-apps.</p>
+                    </div>
+                </div>
+    
+    
+                <div id= "js" class="card"> 
+                    <div class = "all_icons" id = "javascriptimg">
+                        <!-- <img src="skills_page/js2.png" alt="Image of JavaScript logo" class="logo"> -->
+                    </div>
+                    
+                    <div class = "text">
+                    <p>JavaScript MERN stack (MongoDB, Express, React, Node.js). React Native will be added to this list shortly to round out the JavaScript stack.</p>
+                    </div>
+                </div>
+    
+                <div class="blurb_tiles">
+                    <p><span>Skills </span>- The skills I have acquired throughout my education reflect my 
+                        broad interest in science and technology. Programming is the culmination of 
+                        several different aspects of my education and scientific interests coming together. I believe my skill set 
+                        along with a naturally curious mind to be an addition to any company. </p>   
+                </div>
+            
+            <div class="arrowholder">   
+            
+            <div class="arrow_tile">
+            <a href="#projects_page"><img src="nav_page/arrow.png" alt="Image showing downward arrow" class="arrow" class="heartbeat"></a>
+            </div>
+
+            <div class="arrow_tile">
+            <a href="#about_page"><img src="nav_page/arrow_bottom.png" alt="Image showing downward arrow" class="arrow" class="heartbeat"></a>
+            </div>
+            
+            </div>
+        </div>
+    
+    
+    
+        <!--------------------------------------------- End Skills Page ---------------------------------------->
+    
+        <!-------------------------------------------- Start Projects Page --------------------------------------->
+    
+    <div id= "projects_page">
+    
+                <div id= "roulette" class="nav_tiles" class="card">  
+    
+                    <div class = "all_icons" id = "rouletteimg">
+                        <!-- <img src="projects_page/roulette.png" alt="Image of Roulette wheel" class="logo"> -->
+                    </div>
+                    <div class = "text">
+                    <p> This Terminal Roulette App was my first application ever written. 
+                        It is a fully functional roulette wheel with considerations 
+                        on social impact. 
+                    </p>
+                    </div>
+                </div>
+    
+                <div id= "ubuntu" class="nav_tiles" class="card"> 
+                    <div class = "all_icons" id = "ubuntuimg">
+                       <!-- <img src="projects_page/africa.png" alt="Image of Africa, inicating ubuntu" class="logo"> -->
+                    </div>
+                    <div class = "text">
+                    <p>Ubuntu-Education is a community driven platform specifically for education in africa. 
+                        The end goal is to have Natural Science freely accessable to anyone whom needs it. 
+                    </p>
+                    </div>
+                </div>
+                
+                <div id= "under_construction1" class="nav_tiles" class="card"> 
+                        <div class = "all_icons" id = "under_constructionimg">
+                         <!-- <img src="projects_page/under_construction.png" alt="Image of under construction logo" class="logo"> -->
+                        </div>
+                        <div class = "text">
+                        <p>This is a place-holder for a JS project which is in its development phase</p>
+                        </div>
+                        </div>
+    
+                <div id= "under_construction2" class="nav_tiles" href="https://vinyl-countdown.herokuapp.com/"> 
+                    <div class = "all_icons" id = "vinylimg">
+                        <!-- <img src="projects_page/under_construction.png" href="https://vinyl-countdown.herokuapp.com/" alt="Image of under construction logo" class="logo"> -->
+                    </div>
+                    <div class = "text">
+                        <p id = "text">Vinyl-countdown. It is a 2 sided marketplace for vinyl records. It is currently undergoing  a redesign but it is fully functional. </p>
+                    </div>
+                </div>
+                    
+                <div class="blurb_tiles">
+                        <p><span>Projects </span>- The projects I have worked on thus far have reflected my 
+                            background in education and science. The Ubuntu-Education tool will ultimately 
+                            be a free access learning platform to introduce the STEM field to children. The roulette 
+                            application was a exercise to successfully programming basic probability functions. </p>   
+                </div>
+
+            <div class="arrowholder">  
+            
+            <div class="arrow_tile">        
+                <a href="#contact_page"><img src="nav_page/arrow.png" alt="Image showing downward arrow" class="arrow" class="heartbeat"></a>
+            </div>
+
+            <div class="arrow_tile">        
+                <a href="#skills_page"><img src="nav_page/arrow_bottom.png" alt="Image showing downward arrow" class="arrow" class="heartbeat"></a>
+            </div>
+
+            </div>
+
+        </div>
+    
+        <!---------------------------------------------- End Projects Page ------------------------------------->
+    
+        <!---------------------------------------------- Start Contact Page ------------------------------------->
+    
+        <div id= "contact_page">
+    
+                <a href="https://github.com/brucemcclure">
+                <div id= "github" class="card">  
+                    <div class = "all_icons" id = "githubimg">
+                        <!-- <img src="contact_page/github.png" alt="Image of github logo with a link to profile" class="logo"> -->
+                    </div>
+
+                <div class = "text">
+                    <p>My Github repository is available via this link. "Talk is cheap. Show me the code." Torvalds, Linus</p>
+                </div>
+                </div>
+                </a>
+    
+                <a href="https://www.linkedin.com/in/bruce-mcclure-923513158">
+                <div id= "linked" class="card"> 
+                    <div class = "all_icons" id="linkedimg">
+                        <!-- <img src="contact_page/linked.png" alt="Image of linkedin with a link to profile" class="logo"> -->
+                    </div>
+
+                    <div class = "text">
+                    <p>A link to my LinkedIn in providing work history and references</p>
+                    </div>
+                </div>
+                </a>
+    
+                <a href="mailto:brucemcc90@gmail.com?subject=Concerning your portfolio on GitHub">
+                <div id= "email" class="nav_tiles" class="card">
+                    <div class = "all_icons" id = "gmailimg">
+                        <!-- <img src="contact_page/gmail.png" alt="Image of gmail with link to automatic email" class="logo"> -->
+                    </div>
+                    <div class = "text">
+                    <p>My email address: brucemcc90@gmail.com or click this tile to email me.</p>
+                    </div>
+                </div></a>
+    
+                    <a href="tel:+61433813195"><div id= "phone" class="card">
+                    <div class = "all_icons" id = "phoneimg" >
+                        <!-- <img src="contact_page/phone.png" alt="image of cell phone with a link to automatic phone call" class="logo"> -->
+                    </div >
+                    <div class = "text">
+                        <p>My phone number is +61433813195 or click this tile to call me.</p>
+                    </div>
+                    </div></a>
+
+    
+                    <div class="blurb_tiles">
+                        <p><span>Contact </span>- Even though my presence on social media is limited I can be contacted by the above 
+                            menes. I will be available during business hours everyday or I will get back to you within 48h. </p>   
+                    </div>
+        
+        <div class="arrowholder"> 
+                    
+        <div class="arrow_tile">          
+            <a href="#work_page"><img src="nav_page/arrow.png" alt="Image showing downward arrow" class="arrow" class="heartbeat"></a>
+        </div>
+
+        <div class="arrow_tile">          
+            <a href="#projects_page"><img src="nav_page/arrow_bottom.png" alt="Image showing downward arrow" class="arrow" class="heartbeat"></a>
+        </div>
+        
+        </div>
+
+    
+        </div>
+    
+    
+    
+        <!---------------------------------------------- End Contact Page --------------------------------------->
+    
+        <!---------------------------------------------- Start Work Page --------------------------------------->
+        <div id= "work_page">
+                
+            <a href = "https://kingswoodcollege.com/">
+            <div id= "kingswood" class="card">
+                    <div class = "all_icons" id = "kingswoodimg">
+                        <!-- <img src="work_page/kingswood.png" alt="Kingwood college logo" class="logo" id="dragon"> -->
+                    </div>   
+                    
+                    <div class = "text">
+                    <p>
+                        Student assistant at Kingswood College, Grahamstown for 2 years from 2012.  
+                   </p>
+                    </div>
+            </div></a>        
+    
+            <a href = "http://www.sacschool.com/">
+                <div id= "standrews" class="card"> 
+                    <div class = "all_icons" id = "standrewsimg">
+                        <!-- <img src="nav_page/work/st_andrews2.png" alt="St Andrews logo" class="badge"> -->
+                    </div>   
+                    
+                    <div class = "text">
+                    <p>
+                    Student assistant at St Andrews College, Grahamstown for 2 years from 2014. 
+                    </p>
+                    </div>
+                </div></a>
+    
+                <a href = "https://www.kearsney.com/">
+                <div id="kearsney" class="card">
+                    <div class ="all_icons" id = "kearsneyimg">
+                        <!-- <img src="nav_page/work/kearsney2.png" alt="Kearsney college logo" class="badge" id="dog"> -->
+                    </div>
+                    
+                    <div class = "text">
+                    <p>Secondary school teacher at Kearsney College, Bothas Hill for 2 years. 
+                        Teaching Natural Science and Life Science.
+                    </p>
+                    </div>
+                </div></a>
+    
+                <div class="blurb_tiles">
+                    <p><span>Work Experience </span>- 
+                        My work experience thus far has largely been within the education sector. I have 
+                        incorporated educational technology as far as possible to the classroom with a very 
+                        high success rate. I would also consider my postgraduate studies as work experience 
+                        as the technology used is relevant within the tech industry.  
+                    </p>   
+                </div>
+            
+        <div class="arrowholder">   
+                
+            <div class="arrow_tile">     
+            <a href="#education_page"><img src="nav_page/arrow.png" alt="Image showing downward arrow" class="arrow" class="heartbeat"></a>
+            </div>
+            
+            <div class="arrow_tile">     
+            <a href="#contact_page"><img src="nav_page/arrow_bottom.png" alt="Image showing downward arrow" class="arrow" class="heartbeat"></a>
+            </div>
+
+        </div>
+        
+        </div>
+        <!--------------------------------------------- End Work Page ------------------------------------------>
+    
+    
+    
+        <!------------------------------------------- Start Education Page ------------------------------------->
+            <div id= "education_page">
+    
+                <a href="https://www.ru.ac.za/facultyofscience/">
+                <div id="undergrad" class="card">  
+                <div class = "all_icons" id = "undergradimg">
+                    <!-- <img src="education/undergrad.png" alt="conical flask representing undergraduate science with a link to the university" class="logo"> -->
+                </div> 
+                <div class = "text">
+                    <p>Broad BSc at Rhodes University majoring in Ichthyology, Zoology and Human Kinetics and Ergonomics</p>
+                </div>
+                </div></a>
+    
+                <a href ="https://www.ru.ac.za/ichthyology/">
+                <div id="hons" class="card">
+                <div class = "all_icons" id = "honsimg">
+                    <!-- <img src="education/hons.png" alt="Fish bowl representing aquaculture with a link to the university" class="logo"> -->
+                </div>
+                <div class = "text">  
+                    <p>Honours degree at Rhodes University in Ichthyology, with a focus on aquaculture for food security.</p>
+                </div>
+                </div></a>
+    
+                <a href ="https://www.unisa.ac.za/sites/corporate/default/Colleges/Education">
+                <div id="pgce" class="card">
+                <div class = "all_icons" id = "pgceimg">
+                    <!-- <img src="education/pgce.png" alt="An educational building representing the PGCE" class="logo"> -->
+                </div>
+                <div class = "text">
+                    <p>PGCE from UNISA, with the didactic subjects of Natural Science and Life Science</p>
+                </div>
+                </div></a>
+    
+                <a href="https://coderacademy.edu.au/coding-courses/coding-bootcamps/fast-track">
+                <div id="dip" class="card">
+                <div class = "all_icons" id = "coderimg">
+                    <!-- <img src="education/ca.png" alt="A coging logo representing the Diploma in Information Technology" class="logo"> -->
+                </div>
+                <div class = "text"> 
+                    <p>Diploma of Information Technology from the Australian Institute of Technology with a focus on programming </p>
+                </div>
+                </div></a>
+    
+                <div class="blurb_tiles">
+                    <p><span>Education </span>- The education I have received has solely been focussed around 
+                        STEM fields. I am incredibly fortunate to have a bachelors degree, honours degree, 
+                        humanities diploma and now a information technology diploma. A broad education has allowed 
+                        my to tackle a range of industries. </p>   
+                </div>
+
+        <div class="arrowholder">  
+           
+            
+            <div class="arrow_tile"> 
+            <a href="#work_page"><img src="nav_page/arrow.png" alt="Image showing upward arrow" class="arrow" class="heartbeat"></a>
+            </div>    
+
+            <div class="arrow_tile"> 
+            <a href="#navigation_page"><img src="nav_page/arrow_bottom.png" alt="Image showing upward arrow" class="arrow" class="heartbeat"></a>
+            </div>
+
+            </div>
+        </div>
+    </div>
+        <!------------------------------------------- End Education Page---------------------------------------->
+
+    
+        <!---  Page -->
+        </body>
+</html>
