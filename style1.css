@@ -6,7 +6,13 @@
 
 
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    background: url("landing_image/ct.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 body {
@@ -464,12 +470,12 @@ a:link {
 /*******************************************************************************************************/
 
 #fixed_background {
-    background: url("landing_image/ct.jpg");
+    /* background: url("landing_image/ct.jpg");
     background-size: cover;
     background-attachment: fixed;
     -webkit-background-size: cover;
 -moz-background-size: cover;
--o-background-size: cover;
+-o-background-size: cover; */
 }
 
 /* background: url(image.format) no-repeat center center fixed; 
